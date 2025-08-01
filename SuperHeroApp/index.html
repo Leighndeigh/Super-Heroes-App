@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <title>Super Heroes App</title>
+</head>
+<body>
+    <div id="menu">
+        <a href="home.html">Home</a>
+        <a href="index.html">Stats</a>
+    </div>
+    <div class="gallery">
+        <div class="hero" data-aos="fade-up">
+            <a href="avengers_01.html"><img src="images/avengers_01.jpg"/></a> 
+        </div>
+        
+        <div class="hero" data-aos="zoom-in">
+             <a href="avengers_02.html"><img src="images/avengers_02.jpg"/></a>
+        </div>
+        
+        <div class="hero" data-aos="fade-left">
+            <a href="avengers_03.html"><img src="images/avengers_03.jpg"/></a>
+        </div>
+        
+        <div class="hero" data-aos="fade-right">
+            <a href="avengers_04.html"><img src="images/avengers_04.jpg"/></a>
+        </div>
+    
+        <div class="hero" data-aos="fade-left">
+            <a href="avengers_05.html"><img src="images/avengers_05.jpg"/></a>
+        </div>
+    
+        <div class="hero" data-aos="fade-right">
+            <a href="avengers_06.html"><img src="images/avengers_06.jpg"/></a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        duration: 1000,      // animation duration
+        once: false,          // animate only once
+        offset: 100          // offset from trigger point
+    });
+    </script>
+</body>
+</html>
