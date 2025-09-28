@@ -13,7 +13,7 @@ Feel free to have a look at the below video showing how the Super Hereos App loo
 
 ---
 ## Features
-- **Home Page**- Who are the Avengers?, and a brief introduction of each member
+- **Home Page**- Who are the Avengers? A brief introduction of each member
 - **Stats** - Interactive Image that lists the Bio and Power Stats of each member
 
 ---
